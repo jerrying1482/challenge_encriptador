@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador de texto</title>
+    <link  rel="stylesheet" href="style.css">
+    <link rel = "stylesheet" href="reset.css">
+</head>
+<body>
+    <div class="layout">
+    <header>
+    <div   class="encabezado">
+
+
+        <h1> 
+            <!pone una imagen y la fuente>
+            <img src="imagenes/Vector.png" class="mainlogo">
+      
+        </h1>
+    </div>
+
+    </header>
+
+    <main>
+    <section>
+        <textarea id="texto-encriptado"  class="campo-texto"   placeholder="Texto a encriptar"></textarea><p class="texto-parrafo">El texto no debe contener mayúsculas ni caractéres especiales</p>
+        <div class="btn">
+                <button class="btnEncriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btnDecifrar" onclick="btnDecifrar()">Desencriptar</button>
+                <button class="btnLimpiar"  onclick="limpiarCajas()">Limpiar</button>
+                <button class="btnCopiar" onclick="copiarContenido()">Copiar</button>
+        </div>
+    </section>
+
+    <Section>
+        <textarea  id="campo-mensaje" class="campo-mensaje"></textarea>
+
+    </Section>
+
+</main> <!hacemos referencia a nuestro archivo JS>
+<script src="script.js">
+
+</script>
+<footer>
+    <!<img src="imagenes/ave.png">
+    <p class="copyright"> &copy Gerardo Aguilar Aguilar - Grupo 6 - 2024</p> 
+</footer>
+
+</div>
+</body>
+</html>
